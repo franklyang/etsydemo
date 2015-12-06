@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+source 'https://code.stripe.com'
 
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
@@ -12,6 +12,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
+gem 'figaro'
+gem 'stripe'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
